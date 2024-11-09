@@ -11,7 +11,7 @@ on:
   workflow_dispatch: # Allows a run of this workflow to be triggerred manually from the Actions tab
 
 jobs:
-  jekyll:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
@@ -69,7 +69,7 @@ jobs:
           # custom_opts: '--drafts --future'
           ### If you need to specify any Jekyll build options, enable the above input
           ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
-          
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
