@@ -179,20 +179,20 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: rgb(41.325, 41.325, 44.175);
+  color: #29292c;
   border-collapse: collapse;
   overflow: auto;
 }
 table tr:nth-child(even) {
-  background-color: rgb(236.3, 236.3, 236.3);
+  background-color: #ececec;
 }
 table th, table td {
   padding: 10px 15px;
 }
 table th {
-  background-color: rgb(228.65, 228.65, 228.65);
-  border: 1px solid rgb(210.8, 210.8, 210.8);
-  border-bottom-color: rgb(190.4, 190.4, 190.4);
+  background-color: #e5e5e5;
+  border: 1px solid lightgray;
+  border-bottom-color: #bebebe;
 }
 table td {
   border: 1px solid #dddddd;
@@ -412,8 +412,8 @@ html[data-scroll-status=down] .framework .sidebar {
  */
 .site-footer {
   font-size: 14px;
-  color: rgb(63.75, 63.75, 63.75);
-  background-color: rgb(242.25, 242.25, 242.25);
+  color: #404040;
+  background-color: #f2f2f2;
   text-align: left;
   transition: background-color 0.2s;
 }
@@ -425,7 +425,7 @@ html[data-scroll-status=down] .framework .sidebar {
   color: #ff5100;
 }
 .site-footer a:hover {
-  color: rgb(255, 115.8, 51);
+  color: #ff7433;
 }
 
 .copyleft {
@@ -1212,14 +1212,14 @@ html[data-theme=dark] a:visited .post-badges .post-badge.badge-new {
 .post-menu .post-menu-content ul a {
   display: flex;
   padding: 2px 8px;
-  color: rgb(4.35, 4.35, 4.65);
+  color: #040405;
 }
 .post-menu .post-menu-content ul a * {
   pointer-events: none;
 }
 .post-menu .post-menu-content ul a:hover {
   text-decoration: none;
-  color: rgb(102.95, 102.95, 110.05) !important;
+  color: #67676e !important;
 }
 .post-menu .post-menu-content ul .active {
   background-color: #ecebec;
@@ -1228,7 +1228,7 @@ html[data-theme=dark] a:visited .post-badges .post-badge.badge-new {
   margin-left: -2px;
 }
 .post-menu .post-menu-content ul .active:hover {
-  background-color: rgb(240.9692307692, 240.2307692308, 240.9692307692);
+  background-color: #f1f0f1;
 }
 .post-menu .post-menu-content ul .active a {
   color: #121416;
@@ -1261,7 +1261,7 @@ html[data-theme=dark] a:visited .post-badges .post-badge.badge-new {
   transition: background 0.2s;
 }
 .common-list li a:hover {
-  background-color: rgb(238.2, 238.2, 238.2);
+  background-color: #eeeeee;
 }
 .common-list li span {
   font-size: 11.2px;
@@ -1367,7 +1367,7 @@ body {
 
 /* OVERRIDE GOOGLE TRANSLATE WIDGET CSS END */
 .ct-language-selected, .ct-language-dropdown li:hover {
-  background-color: rgb(242.25, 242.25, 242.25) !important;
+  background-color: #f2f2f2 !important;
 }
 
 .ct-language-dropdown {

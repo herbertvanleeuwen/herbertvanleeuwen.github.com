@@ -25,4 +25,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-spaceship", "~> 0.2"
+  spec.add_runtime_dependency "bigdecimal"
+  spec.add_runtime_dependency "base64"
+  spec.add_runtime_dependency "ostruct"
+  spec.add_runtime_dependency "csv"
+  spec.add_runtime_dependency "logger"
 end
