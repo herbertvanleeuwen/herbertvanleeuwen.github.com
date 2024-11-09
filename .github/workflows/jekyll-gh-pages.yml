@@ -36,10 +36,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Install dependencies
-      - name: Install dependencies
-        run: bundle install
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
