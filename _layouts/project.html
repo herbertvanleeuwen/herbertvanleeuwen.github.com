@@ -1,0 +1,16 @@
+---
+layout: framework
+banner:
+banner_html: post-header.html
+hidden: []
+sidebar:
+  - article-menu
+---
+
+<body>
+  <h1>{{ page.title }}</h1>
+  <p><strong>Date:</strong> {{ page.date }}</p>
+  <p><strong>Technologies:</strong> {{ page.technologies | join: ", " }}</p>
+  <p>{{ content }}</p>
+  <a href="/">Back to portfolio</a>
+</body>

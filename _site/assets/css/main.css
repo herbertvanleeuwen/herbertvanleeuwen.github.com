@@ -1495,4 +1495,45 @@ html[data-theme=dark] .click-to-top {
   color: #bbb;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 920px;
+  margin: 20px auto;
+}
+
+.project {
+  background-color: #ffffff;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.project h2 {
+  font-size: 1.5rem;
+  color: #ff5100;
+  margin-bottom: 10px;
+}
+.project p {
+  font-size: 1rem;
+  color: #ff5100;
+  margin-bottom: 10px;
+}
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff5100;
+  text-decoration: none;
+}
+.project a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=main.css.map */

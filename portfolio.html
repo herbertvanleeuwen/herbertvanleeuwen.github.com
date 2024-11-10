@@ -1,0 +1,19 @@
+---
+layout: framework
+title: Portfolio
+---
+
+<body>
+  <h1>My Programming Projects</h1>
+
+  <div class="projects">
+    {% for project in site.projects %}
+      <div class="project">
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.description }}</p>
+        <p><strong>Technologies:</strong> {{ project.technologies | join: ", " }}</p>
+        <p><a href="{{ project.url }}">Read more</a></p>
+      </div>
+    {% endfor %}
+  </div>
+</body>

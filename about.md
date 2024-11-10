@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
+title: About me
 ---
-# About page
+# About me
 
 This page tells you a little bit about me.

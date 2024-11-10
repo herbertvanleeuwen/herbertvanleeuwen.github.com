@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-yat"
   spec.version       = "1.10.0"
